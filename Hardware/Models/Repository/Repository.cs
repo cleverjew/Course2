@@ -9,7 +9,7 @@ namespace Hardware.Models.Repository
     {
         private EFDbContext context = new EFDbContext();
 
-        public IEnumerable<Hardware> Games
+        public IEnumerable<HardwareLines> Products
         {
             get { return context.Products; }
         }

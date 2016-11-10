@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Hardware.Models
 {
-    public class Hardware
+    public class HardwareLines
     {
         public int ProductId { get; set; }
         public string Name { get; set; }
